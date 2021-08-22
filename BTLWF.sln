@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI.csproj", "{78A4A265-37DE-4F02-AE73-E9CCCE78EDE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{9624EBFC-DAEF-4428-BBE5-24906245C2F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{8946DEE1-7374-43EA-B216-70B48D42150A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{BCB14278-70E2-4DE4-BE9F-8E5162C6F9D4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\R.png = ..\..\..\Downloads\R.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icon", "icon", "{F920DF9F-A73A-43C8-AFE2-832803FA24E0}"
+	ProjectSection(SolutionItems) = preProject
+		icon\icons8_add.ico = icon\icons8_add.ico
+		icon\icons8_edit_property.ico = icon\icons8_edit_property.ico
+		icon\icons8_user.ico = icon\icons8_user.ico
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78A4A265-37DE-4F02-AE73-E9CCCE78EDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A4A265-37DE-4F02-AE73-E9CCCE78EDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A4A265-37DE-4F02-AE73-E9CCCE78EDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A4A265-37DE-4F02-AE73-E9CCCE78EDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9624EBFC-DAEF-4428-BBE5-24906245C2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9624EBFC-DAEF-4428-BBE5-24906245C2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9624EBFC-DAEF-4428-BBE5-24906245C2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9624EBFC-DAEF-4428-BBE5-24906245C2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8946DEE1-7374-43EA-B216-70B48D42150A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8946DEE1-7374-43EA-B216-70B48D42150A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8946DEE1-7374-43EA-B216-70B48D42150A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8946DEE1-7374-43EA-B216-70B48D42150A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FA9FEC7-BDE9-4B73-B06A-AA3D226133CE}
+	EndGlobalSection
+EndGlobal

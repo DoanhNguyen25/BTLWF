@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDoanPhi" targetNamespace="http://tempuri.org/dsDoanPhi.xsd" xmlns:mstns="http://tempuri.org/dsDoanPhi.xsd" xmlns="http://tempuri.org/dsDoanPhi.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDoanPhi" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsDoanPhi" msprop:Generator_UserDSName="dsDoanPhi">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ThongTin_NopDoanPhi" msprop:Generator_TableClassName="ThongTin_NopDoanPhiDataTable" msprop:Generator_TableVarName="tableThongTin_NopDoanPhi" msprop:Generator_TablePropName="ThongTin_NopDoanPhi" msprop:Generator_RowDeletingName="ThongTin_NopDoanPhiRowDeleting" msprop:Generator_RowChangingName="ThongTin_NopDoanPhiRowChanging" msprop:Generator_RowEvHandlerName="ThongTin_NopDoanPhiRowChangeEventHandler" msprop:Generator_RowDeletedName="ThongTin_NopDoanPhiRowDeleted" msprop:Generator_UserTableName="ThongTin_NopDoanPhi" msprop:Generator_RowChangedName="ThongTin_NopDoanPhiRowChanged" msprop:Generator_RowEvArgName="ThongTin_NopDoanPhiRowChangeEvent" msprop:Generator_RowClassName="ThongTin_NopDoanPhiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaSV" msprop:Generator_ColumnVarNameInTable="columnMaSV" msprop:Generator_ColumnPropNameInRow="MaSV" msprop:Generator_ColumnPropNameInTable="MaSVColumn" msprop:Generator_UserColumnName="MaSV" type="xs:string" minOccurs="0" />
+              <xs:element name="MaCB" msprop:Generator_ColumnVarNameInTable="columnMaCB" msprop:Generator_ColumnPropNameInRow="MaCB" msprop:Generator_ColumnPropNameInTable="MaCBColumn" msprop:Generator_UserColumnName="MaCB" type="xs:string" minOccurs="0" />
+              <xs:element name="SoPhieu" msprop:Generator_ColumnVarNameInTable="columnSoPhieu" msprop:Generator_ColumnPropNameInRow="SoPhieu" msprop:Generator_ColumnPropNameInTable="SoPhieuColumn" msprop:Generator_UserColumnName="SoPhieu" type="xs:string" minOccurs="0" />
+              <xs:element name="NgayNop" msprop:Generator_ColumnVarNameInTable="columnNgayNop" msprop:Generator_ColumnPropNameInRow="NgayNop" msprop:Generator_ColumnPropNameInTable="NgayNopColumn" msprop:Generator_UserColumnName="NgayNop" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SoTien" msprop:Generator_ColumnVarNameInTable="columnSoTien" msprop:Generator_ColumnPropNameInRow="SoTien" msprop:Generator_ColumnPropNameInTable="SoTienColumn" msprop:Generator_UserColumnName="SoTien" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NoiDung" msprop:Generator_ColumnVarNameInTable="columnNoiDung" msprop:Generator_ColumnPropNameInRow="NoiDung" msprop:Generator_ColumnPropNameInTable="NoiDungColumn" msprop:Generator_UserColumnName="NoiDung" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:length value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

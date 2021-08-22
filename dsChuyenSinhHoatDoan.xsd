@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsChuyenSinhHoatDoan" targetNamespace="http://tempuri.org/dsChuyenSinhHoatDoan.xsd" xmlns:mstns="http://tempuri.org/dsChuyenSinhHoatDoan.xsd" xmlns="http://tempuri.org/dsChuyenSinhHoatDoan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsChuyenSinhHoatDoan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsChuyenSinhHoatDoan" msprop:Generator_UserDSName="dsChuyenSinhHoatDoan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ThongTin_ChuyenSinhHoatDoan" msprop:Generator_TableClassName="ThongTin_ChuyenSinhHoatDoanDataTable" msprop:Generator_TableVarName="tableThongTin_ChuyenSinhHoatDoan" msprop:Generator_TablePropName="ThongTin_ChuyenSinhHoatDoan" msprop:Generator_RowDeletingName="ThongTin_ChuyenSinhHoatDoanRowDeleting" msprop:Generator_RowChangingName="ThongTin_ChuyenSinhHoatDoanRowChanging" msprop:Generator_RowEvHandlerName="ThongTin_ChuyenSinhHoatDoanRowChangeEventHandler" msprop:Generator_RowDeletedName="ThongTin_ChuyenSinhHoatDoanRowDeleted" msprop:Generator_UserTableName="ThongTin_ChuyenSinhHoatDoan" msprop:Generator_RowChangedName="ThongTin_ChuyenSinhHoatDoanRowChanged" msprop:Generator_RowEvArgName="ThongTin_ChuyenSinhHoatDoanRowChangeEvent" msprop:Generator_RowClassName="ThongTin_ChuyenSinhHoatDoanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaSV" msprop:Generator_ColumnVarNameInTable="columnMaSV" msprop:Generator_ColumnPropNameInRow="MaSV" msprop:Generator_ColumnPropNameInTable="MaSVColumn" msprop:Generator_UserColumnName="MaSV" type="xs:string" minOccurs="0" />
+              <xs:element name="MaCB" msprop:Generator_ColumnVarNameInTable="columnMaCB" msprop:Generator_ColumnPropNameInRow="MaCB" msprop:Generator_ColumnPropNameInTable="MaCBColumn" msprop:Generator_UserColumnName="MaCB" type="xs:string" minOccurs="0" />
+              <xs:element name="NgayChuyen" msprop:Generator_ColumnVarNameInTable="columnNgayChuyen" msprop:Generator_ColumnPropNameInRow="NgayChuyen" msprop:Generator_ColumnPropNameInTable="NgayChuyenColumn" msprop:Generator_UserColumnName="NgayChuyen" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NoiChuyenDen" msprop:Generator_ColumnVarNameInTable="columnNoiChuyenDen" msprop:Generator_ColumnPropNameInRow="NoiChuyenDen" msprop:Generator_ColumnPropNameInTable="NoiChuyenDenColumn" msprop:Generator_UserColumnName="NoiChuyenDen" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
