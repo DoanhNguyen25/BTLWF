@@ -165,5 +165,22 @@ namespace BTLWF
             frmReportChuyenSinhHoatDoan chuyensinhhoat = new frmReportChuyenSinhHoatDoan();
             chuyensinhhoat.ShowDialog();
         }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.facebook.com/thangh.it12");
+
+        }
+
+        private void logoTruong_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("0919319071");
+        }
+
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTSDvWGNbcdgxwQgXfqjHBPKljzfKRHwVMzgvfgDpkCPjLJdRMJSjNMgWZJlCsTLSSrFdB");
+
+        }
     }
 }

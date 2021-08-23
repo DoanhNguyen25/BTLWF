@@ -606,6 +606,11 @@
     <None Include="icon\icons8_invisible_32.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\198684837_2946084662324717_8924170991775312751_n.png" />
+    <None Include="icon\icons8_facebook_32.png" />
+    <None Include="icon\icons8_whatsapp_32.png" />
+    <None Include="icon\icons8_gmail_logo_32.png" />
+    <None Include="Resources\icons8_information_32.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

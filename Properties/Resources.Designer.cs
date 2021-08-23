@@ -93,6 +93,16 @@ namespace BTLWF.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _198684837_2946084662324717_8924170991775312751_n {
+            get {
+                object obj = ResourceManager.GetObject("198684837_2946084662324717_8924170991775312751_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FIT_TRONG_SUOT {
             get {
                 object obj = ResourceManager.GetObject("FIT TRONG SUOT", resourceCulture);
@@ -173,9 +183,39 @@ namespace BTLWF.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_facebook_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_facebook_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_facebook_321 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_facebook_321", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_forgot_password_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8_forgot_password_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_gmail_logo_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_gmail_logo_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +246,16 @@ namespace BTLWF.Properties {
         internal static System.Drawing.Bitmap icons8_information_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8_information_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_information_321 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_information_321", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -406,6 +456,26 @@ namespace BTLWF.Properties {
         internal static System.Drawing.Bitmap icons8_user_groups_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8_user_groups_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_whatsapp_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_whatsapp_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_whatsapp_321 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_whatsapp_321", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

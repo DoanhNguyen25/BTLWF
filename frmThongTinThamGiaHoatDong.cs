@@ -27,11 +27,15 @@ namespace BTLWF
 
             DataTable masv= new DataTable();
             masv = data.HienThongTinSV();
-            dgvHD.DataSource = dataTable;
+            cbbMasv.DataSource = masv;
+            cbbMasv.DisplayMember = "MaSV";
+            cbbMasv.ValueMember = "MaSV";
 
             DataTable mahd = new DataTable();
             mahd = data.HienThongTinMaHD();
-            dgvHD.DataSource = dataTable;
+            cbbMaDH.DataSource = mahd;
+            cbbMaDH.DisplayMember = "MaHD";
+            cbbMaDH.ValueMember = "MaHD";
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
@@ -42,6 +46,11 @@ namespace BTLWF
         private void btnXuat_Click(object sender, EventArgs e)
         {
             data.ExportDataToExcel();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

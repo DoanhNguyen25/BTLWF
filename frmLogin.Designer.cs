@@ -64,10 +64,9 @@ namespace BTLWF
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Green;
-            this.label6.Location = new System.Drawing.Point(135, 103);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(202, 158);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(160, 15);
+            this.label6.Size = new System.Drawing.Size(250, 25);
             this.label6.TabIndex = 48;
             this.label6.Text = "CHÀO MỪNG BẠN ĐẾN VỚI";
             // 
@@ -76,10 +75,9 @@ namespace BTLWF
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Green;
-            this.label3.Location = new System.Drawing.Point(124, 127);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(186, 195);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(189, 15);
+            this.label3.Size = new System.Drawing.Size(296, 25);
             this.label3.TabIndex = 49;
             this.label3.Text = "HỆ THỐNG QUẢN LÝ ĐOÀN VIÊN";
             // 
@@ -87,10 +85,9 @@ namespace BTLWF
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(113, 23);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(170, 35);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(220, 19);
+            this.label2.Size = new System.Drawing.Size(312, 28);
             this.label2.TabIndex = 50;
             this.label2.Text = "KHOA CÔNG NGHỆ THÔNG TIN";
             // 
@@ -98,10 +95,9 @@ namespace BTLWF
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(75, 4);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(112, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(306, 20);
+            this.label1.Size = new System.Drawing.Size(449, 30);
             this.label1.TabIndex = 51;
             this.label1.Text = "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI";
             // 
@@ -114,14 +110,13 @@ namespace BTLWF
             this.tableLayoutPanel1.Controls.Add(this.panel1, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 450F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 450F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 450F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 450);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 692F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 692F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 692F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1200, 692);
             this.tableLayoutPanel1.TabIndex = 7;
             // 
             // panel2
@@ -132,10 +127,9 @@ namespace BTLWF
             this.panel2.CausesValidation = false;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Enabled = false;
-            this.panel2.Location = new System.Drawing.Point(2, 2);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(330, 446);
+            this.panel2.Size = new System.Drawing.Size(495, 686);
             this.panel2.TabIndex = 3;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -156,10 +150,9 @@ namespace BTLWF
             this.panel1.Controls.Add(this.txbPassword);
             this.panel1.Controls.Add(this.txbUserName);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(336, 2);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(504, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(462, 446);
+            this.panel1.Size = new System.Drawing.Size(693, 686);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -182,18 +175,17 @@ namespace BTLWF
             this.bunifuImageButton2.ImageActive = null;
             this.bunifuImageButton2.ImageLocation = null;
             this.bunifuImageButton2.ImageMargin = 1;
-            this.bunifuImageButton2.ImageSize = new System.Drawing.Size(32, 31);
-            this.bunifuImageButton2.ImageZoomSize = new System.Drawing.Size(33, 32);
+            this.bunifuImageButton2.ImageSize = new System.Drawing.Size(49, 48);
+            this.bunifuImageButton2.ImageZoomSize = new System.Drawing.Size(50, 49);
             this.bunifuImageButton2.InitialImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.InitialImage")));
-            this.bunifuImageButton2.Location = new System.Drawing.Point(151, 44);
-            this.bunifuImageButton2.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuImageButton2.Location = new System.Drawing.Point(226, 68);
             this.bunifuImageButton2.Name = "bunifuImageButton2";
             this.bunifuImageButton2.Rotation = 0;
             this.bunifuImageButton2.ShowActiveImage = true;
             this.bunifuImageButton2.ShowCursorChanges = true;
             this.bunifuImageButton2.ShowImageBorders = true;
             this.bunifuImageButton2.ShowSizeMarkers = false;
-            this.bunifuImageButton2.Size = new System.Drawing.Size(33, 32);
+            this.bunifuImageButton2.Size = new System.Drawing.Size(50, 49);
             this.bunifuImageButton2.TabIndex = 45;
             this.bunifuImageButton2.ToolTipText = "";
             this.bunifuImageButton2.WaitOnLoad = false;
@@ -220,18 +212,17 @@ namespace BTLWF
             this.bunifuImageButton1.ImageActive = null;
             this.bunifuImageButton1.ImageLocation = null;
             this.bunifuImageButton1.ImageMargin = 1;
-            this.bunifuImageButton1.ImageSize = new System.Drawing.Size(51, 26);
-            this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(52, 27);
+            this.bunifuImageButton1.ImageSize = new System.Drawing.Size(77, 41);
+            this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(78, 42);
             this.bunifuImageButton1.InitialImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.InitialImage")));
-            this.bunifuImageButton1.Location = new System.Drawing.Point(188, 44);
-            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(282, 68);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Rotation = 0;
             this.bunifuImageButton1.ShowActiveImage = true;
             this.bunifuImageButton1.ShowCursorChanges = true;
             this.bunifuImageButton1.ShowImageBorders = true;
             this.bunifuImageButton1.ShowSizeMarkers = false;
-            this.bunifuImageButton1.Size = new System.Drawing.Size(52, 27);
+            this.bunifuImageButton1.Size = new System.Drawing.Size(78, 42);
             this.bunifuImageButton1.TabIndex = 46;
             this.bunifuImageButton1.ToolTipText = "";
             this.bunifuImageButton1.WaitOnLoad = false;
@@ -258,18 +249,17 @@ namespace BTLWF
             this.logoTruong.ImageActive = null;
             this.logoTruong.ImageLocation = null;
             this.logoTruong.ImageMargin = 1;
-            this.logoTruong.ImageSize = new System.Drawing.Size(32, 31);
-            this.logoTruong.ImageZoomSize = new System.Drawing.Size(33, 32);
+            this.logoTruong.ImageSize = new System.Drawing.Size(49, 48);
+            this.logoTruong.ImageZoomSize = new System.Drawing.Size(50, 49);
             this.logoTruong.InitialImage = global::BTLWF.Properties.Resources._14114411_hinh_doan_thumbnail;
-            this.logoTruong.Location = new System.Drawing.Point(244, 44);
-            this.logoTruong.Margin = new System.Windows.Forms.Padding(2);
+            this.logoTruong.Location = new System.Drawing.Point(366, 68);
             this.logoTruong.Name = "logoTruong";
             this.logoTruong.Rotation = 0;
             this.logoTruong.ShowActiveImage = true;
             this.logoTruong.ShowCursorChanges = true;
             this.logoTruong.ShowImageBorders = true;
             this.logoTruong.ShowSizeMarkers = false;
-            this.logoTruong.Size = new System.Drawing.Size(33, 32);
+            this.logoTruong.Size = new System.Drawing.Size(50, 49);
             this.logoTruong.TabIndex = 47;
             this.logoTruong.ToolTipText = "";
             this.logoTruong.WaitOnLoad = false;
@@ -281,10 +271,9 @@ namespace BTLWF
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Image = ((System.Drawing.Image)(resources.GetObject("label4.Image")));
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label4.Location = new System.Drawing.Point(63, 196);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(94, 302);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 33);
+            this.label4.Size = new System.Drawing.Size(144, 51);
             this.label4.TabIndex = 43;
             this.label4.Text = "Mật khẩu";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -294,10 +283,9 @@ namespace BTLWF
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Image = ((System.Drawing.Image)(resources.GetObject("label7.Image")));
             this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label7.Location = new System.Drawing.Point(63, 148);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(94, 228);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(121, 34);
+            this.label7.Size = new System.Drawing.Size(182, 52);
             this.label7.TabIndex = 44;
             this.label7.Text = "Tên đăng nhập";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -309,9 +297,10 @@ namespace BTLWF
             this.lnklableForgotPassword.Image = global::BTLWF.Properties.Resources.icons8_key_2_16;
             this.lnklableForgotPassword.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lnklableForgotPassword.LinkColor = System.Drawing.Color.Blue;
-            this.lnklableForgotPassword.Location = new System.Drawing.Point(257, 235);
+            this.lnklableForgotPassword.Location = new System.Drawing.Point(386, 362);
+            this.lnklableForgotPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnklableForgotPassword.Name = "lnklableForgotPassword";
-            this.lnklableForgotPassword.Size = new System.Drawing.Size(99, 20);
+            this.lnklableForgotPassword.Size = new System.Drawing.Size(148, 31);
             this.lnklableForgotPassword.TabIndex = 11;
             this.lnklableForgotPassword.TabStop = true;
             this.lnklableForgotPassword.Text = "Quên mật khẩu?";
@@ -336,10 +325,10 @@ namespace BTLWF
             this.btnLogin.IdleFillColor = System.Drawing.Color.White;
             this.btnLogin.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnLogin.IdleLineColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(146, 269);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(5);
+            this.btnLogin.Location = new System.Drawing.Point(219, 414);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(126, 50);
+            this.btnLogin.Size = new System.Drawing.Size(189, 77);
             this.btnLogin.TabIndex = 10;
             this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -371,9 +360,10 @@ namespace BTLWF
             this.txbPassword.IconRight = null;
             this.txbPassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txbPassword.Lines = new string[0];
-            this.txbPassword.Location = new System.Drawing.Point(189, 200);
+            this.txbPassword.Location = new System.Drawing.Point(284, 308);
+            this.txbPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbPassword.MaxLength = 32767;
-            this.txbPassword.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txbPassword.MinimumSize = new System.Drawing.Size(2, 2);
             this.txbPassword.Modified = false;
             this.txbPassword.Multiline = false;
             this.txbPassword.Name = "txbPassword";
@@ -397,7 +387,7 @@ namespace BTLWF
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txbPassword.OnIdleState = stateProperties4;
-            this.txbPassword.Padding = new System.Windows.Forms.Padding(3);
+            this.txbPassword.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbPassword.PasswordChar = '\0';
             this.txbPassword.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txbPassword.PlaceholderText = "Nhập mật khẩu";
@@ -407,7 +397,7 @@ namespace BTLWF
             this.txbPassword.SelectionLength = 0;
             this.txbPassword.SelectionStart = 0;
             this.txbPassword.ShortcutsEnabled = true;
-            this.txbPassword.Size = new System.Drawing.Size(167, 32);
+            this.txbPassword.Size = new System.Drawing.Size(250, 49);
             this.txbPassword.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txbPassword.TabIndex = 9;
             this.txbPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -446,9 +436,10 @@ namespace BTLWF
             this.txbUserName.IconRight = null;
             this.txbUserName.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txbUserName.Lines = new string[0];
-            this.txbUserName.Location = new System.Drawing.Point(189, 155);
+            this.txbUserName.Location = new System.Drawing.Point(284, 238);
+            this.txbUserName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbUserName.MaxLength = 32767;
-            this.txbUserName.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txbUserName.MinimumSize = new System.Drawing.Size(2, 2);
             this.txbUserName.Modified = false;
             this.txbUserName.Multiline = false;
             this.txbUserName.Name = "txbUserName";
@@ -472,7 +463,7 @@ namespace BTLWF
             stateProperties8.ForeColor = System.Drawing.Color.Empty;
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txbUserName.OnIdleState = stateProperties8;
-            this.txbUserName.Padding = new System.Windows.Forms.Padding(3);
+            this.txbUserName.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbUserName.PasswordChar = '\0';
             this.txbUserName.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txbUserName.PlaceholderText = "Tên đăng nhập";
@@ -483,7 +474,7 @@ namespace BTLWF
             this.txbUserName.SelectionLength = 0;
             this.txbUserName.SelectionStart = 0;
             this.txbUserName.ShortcutsEnabled = true;
-            this.txbUserName.Size = new System.Drawing.Size(167, 32);
+            this.txbUserName.Size = new System.Drawing.Size(250, 49);
             this.txbUserName.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txbUserName.TabIndex = 8;
             this.txbUserName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -496,13 +487,15 @@ namespace BTLWF
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmLogin";
+            this.Text = "Đăng nhập";
             this.Load += new System.EventHandler(this.frmLogin_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

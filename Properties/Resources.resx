@@ -142,6 +142,12 @@
   <data name="icons8_google_classroom_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_google_classroom_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="14114411_hinh-doan_thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\14114411_hinh-doan_thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_search_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8_search_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_ok_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_ok_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,14 +169,17 @@
   <data name="Truong" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\Truong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="198684837_2946084662324717_8924170991775312751_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\198684837_2946084662324717_8924170991775312751_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_invisible_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_invisible_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8_compose_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8_compose_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icons8_location_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_location_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_compose_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8_compose_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_numbers_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_numbers_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,8 +187,8 @@
   <data name="FIT TRONG SUOT" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\FIT TRONG SUOT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="173008575_265126565340220_577533821256623570_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\173008575_265126565340220_577533821256623570_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8_eye_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8_eye_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="14114411_hinh-doan_thumbnail1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\14114411_hinh-doan_thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,8 +202,14 @@
   <data name="icons8_student_male_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_student_male_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8_user_groups_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8_user_groups_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8_facebook_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8_facebook_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_whatsapp_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8_whatsapp_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="173008575_265126565340220_577533821256623570_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\173008575_265126565340220_577533821256623570_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_topic_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_topic_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,17 +217,23 @@
   <data name="icons8_prototype_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_prototype_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8_search_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8_search_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8_facebook_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8_facebook_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="14114411_hinh-doan_thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\14114411_hinh-doan_thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8_gmail_logo_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8_gmail_logo_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_user_groups_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8_user_groups_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_test_passed_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_test_passed_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_info_squared_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_info_squared_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_whatsapp_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8_whatsapp_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_forgot_password_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_forgot_password_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,7 +244,7 @@
   <data name="icons8_calendar_week10_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_calendar_week10_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8_eye_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8_eye_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8_information_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_information_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

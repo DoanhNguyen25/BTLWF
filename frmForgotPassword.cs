@@ -47,14 +47,14 @@ namespace BTLWF
             {
                 if (txbUsername.Text == "" || txbPhoneNumber.Text == "")
                 {
-                    MessageBox.Show("bạn cần nhập đủ các trường");
+                    MessageBox.Show("Bạn cần nhập đủ các ô");
                 }
                 else
                 {
                     DataTable table = login.ForgotPassword(txbUsername.Text, txbPhoneNumber.Text);
                     if (table.Rows.Count == 0)
                     {
-                        MessageBox.Show("không thể thực hiện thao tác");
+                        MessageBox.Show("Không thể thực hiện thao tác");
                     }
                     else
                     {
@@ -77,13 +77,13 @@ namespace BTLWF
             {
                 if (txbNewPassword.Text == "" || txbSubmitPassword.Text == "")
                 {
-                    MessageBox.Show("bạn phải nhập đủ các trường");
+                    MessageBox.Show("Bạn phải nhập đủ các ô");
                 }
                 else
                 {
                     if (txbNewPassword.Text != txbSubmitPassword.Text)
                     {
-                        MessageBox.Show("mật khẩu không khớp");
+                        MessageBox.Show("Mật khẩu không khớp");
                     }
                     else
                     {
@@ -91,12 +91,12 @@ namespace BTLWF
                         {
                             if (check.Rows.Count == 0)
                             {
-                                MessageBox.Show("tên đăng nhập khong tồn tại");
+                                MessageBox.Show("Tên đăng nhập không tồn tại");
                             }
                             else
                             {
                                 login.UpDatePassword(txbUsername.Text.Trim(), txbNewPassword.Text.Trim());
-                                MessageBox.Show("cập nhật thành công");
+                                MessageBox.Show("Cập nhật thành công!");
                                 ClearTextBox();
                             }
                         }
@@ -117,7 +117,7 @@ namespace BTLWF
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            DialogResult dr = MessageBox.Show("bạn có muốn hủy thao tác", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult dr = MessageBox.Show("Bạn có muốn hủy thao tác?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dr == DialogResult.Yes)
             {
                 panelUpdatePassword.Visible = false;

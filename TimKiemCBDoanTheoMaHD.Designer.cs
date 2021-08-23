@@ -47,25 +47,28 @@ namespace BTLWF
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(152, 75);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(152, 70);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 20);
+            this.label1.Size = new System.Drawing.Size(137, 28);
             this.label1.TabIndex = 0;
-            this.label1.Text = "mã hoạt động";
+            this.label1.Text = "Mã hoạt động";
             // 
             // cbbMaHD
             // 
+            this.cbbMaHD.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbMaHD.FormattingEnabled = true;
             this.cbbMaHD.Location = new System.Drawing.Point(296, 66);
             this.cbbMaHD.Name = "cbbMaHD";
-            this.cbbMaHD.Size = new System.Drawing.Size(166, 28);
+            this.cbbMaHD.Size = new System.Drawing.Size(209, 36);
             this.cbbMaHD.TabIndex = 1;
             // 
             // btnTim
             // 
+            this.btnTim.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTim.Location = new System.Drawing.Point(296, 161);
             this.btnTim.Name = "btnTim";
-            this.btnTim.Size = new System.Drawing.Size(175, 32);
+            this.btnTim.Size = new System.Drawing.Size(175, 43);
             this.btnTim.TabIndex = 2;
             this.btnTim.Text = "Tìm kiếm";
             this.btnTim.UseVisualStyleBackColor = true;
@@ -165,7 +168,7 @@ namespace BTLWF
             this.Controls.Add(this.cbbMaHD);
             this.Controls.Add(this.label1);
             this.Name = "TimKiemCBDoanTheoMaHD";
-            this.Text = "TimKiemCBDoanTheoMaHD";
+            this.Text = "Tìm kiếm cán bộ Đoàn theo mã HĐ";
             this.Load += new System.EventHandler(this.TimKiemCBDoanTheoMaHD_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvcanbo)).EndInit();
             this.ResumeLayout(false);

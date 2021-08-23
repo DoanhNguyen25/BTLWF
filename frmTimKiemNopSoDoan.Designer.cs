@@ -55,9 +55,10 @@ namespace BTLWF
             // 
             // btnTimKiemTheoMa
             // 
-            this.btnTimKiemTheoMa.Location = new System.Drawing.Point(227, 220);
+            this.btnTimKiemTheoMa.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimKiemTheoMa.Location = new System.Drawing.Point(227, 203);
             this.btnTimKiemTheoMa.Name = "btnTimKiemTheoMa";
-            this.btnTimKiemTheoMa.Size = new System.Drawing.Size(217, 63);
+            this.btnTimKiemTheoMa.Size = new System.Drawing.Size(237, 80);
             this.btnTimKiemTheoMa.TabIndex = 2;
             this.btnTimKiemTheoMa.Text = "Tìm kiếm theo MaSV";
             this.btnTimKiemTheoMa.UseVisualStyleBackColor = true;
@@ -66,11 +67,12 @@ namespace BTLWF
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(223, 70);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 20);
+            this.label1.Size = new System.Drawing.Size(121, 28);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Mã Sinh Vien";
+            this.label1.Text = "Mã sinh viên";
             // 
             // cbbMacb
             // 
@@ -83,17 +85,19 @@ namespace BTLWF
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(223, 137);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 20);
+            this.label2.Size = new System.Drawing.Size(104, 28);
             this.label2.TabIndex = 3;
             this.label2.Text = "Mã cán bộ";
             // 
             // btnMasvMacb
             // 
+            this.btnMasvMacb.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMasvMacb.Location = new System.Drawing.Point(384, 305);
             this.btnMasvMacb.Name = "btnMasvMacb";
-            this.btnMasvMacb.Size = new System.Drawing.Size(244, 63);
+            this.btnMasvMacb.Size = new System.Drawing.Size(244, 88);
             this.btnMasvMacb.TabIndex = 2;
             this.btnMasvMacb.Text = "Tìm kiếm theo MaSV+MaCB";
             this.btnMasvMacb.UseVisualStyleBackColor = true;
@@ -157,9 +161,10 @@ namespace BTLWF
             // 
             // btnMaCB
             // 
-            this.btnMaCB.Location = new System.Drawing.Point(580, 220);
+            this.btnMaCB.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaCB.Location = new System.Drawing.Point(580, 203);
             this.btnMaCB.Name = "btnMaCB";
-            this.btnMaCB.Size = new System.Drawing.Size(200, 60);
+            this.btnMaCB.Size = new System.Drawing.Size(220, 77);
             this.btnMaCB.TabIndex = 6;
             this.btnMaCB.Text = "Tìm kiếm theo MaCB";
             this.btnMaCB.UseVisualStyleBackColor = true;
@@ -180,7 +185,7 @@ namespace BTLWF
             this.Controls.Add(this.btnTimKiemTheoMa);
             this.Controls.Add(this.cbbMasv);
             this.Name = "frmTimKiemNopSoDoan";
-            this.Text = "frmTimKiemNopSoDoan";
+            this.Text = "Tìm kiếm sổ Đoàn";
             this.Load += new System.EventHandler(this.frmTimKiemNopSoDoan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvThongTinTimKiem)).EndInit();
             this.ResumeLayout(false);

@@ -24,5 +24,15 @@ namespace BTLWF
             dataTable = bLL_CanBoDoan.TimTheoMaCB(txtMaCB.Text);
             dgvCanBo.DataSource = dataTable;
         }
+
+        private void txtMaCB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

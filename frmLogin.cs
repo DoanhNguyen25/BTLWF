@@ -36,7 +36,7 @@ namespace BTLWF
             {
                 if (txbUserName.Text == "" || txbPassword.Text == "")
                 {
-                    MessageBox.Show("bạn cần nhập đủ các trường");
+                    MessageBox.Show("Bạn cần nhập đủ các ô");
                 }
                 else
                 {
@@ -44,11 +44,11 @@ namespace BTLWF
 
                     if (account.Rows.Count == 0)
                     {
-                        MessageBox.Show("tài khoản không tồn tại");
+                        MessageBox.Show("Tài khoản không tồn tại");
                     }
                     else
                     {
-                        MessageBox.Show("dăng nhập thành công");
+                        MessageBox.Show("Đăng nhập thành công");
                         this.Hide();
                         DataTable tb = login.Authorization(txbUserName.Text, txbPassword.Text);
                         string q = tb.Rows[0][0].ToString();

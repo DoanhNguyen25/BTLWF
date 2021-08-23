@@ -29,6 +29,7 @@ namespace BTLWF
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTimKiemSVTheoMaSV));
             this.label1 = new System.Windows.Forms.Label();
             this.txtMaSV = new System.Windows.Forms.TextBox();
             this.btnTimKiem = new System.Windows.Forms.Button();
@@ -47,26 +48,29 @@ namespace BTLWF
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(236, 108);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 20);
+            this.label1.Size = new System.Drawing.Size(121, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã sinh viên";
             // 
             // txtMaSV
             // 
+            this.txtMaSV.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaSV.Location = new System.Drawing.Point(373, 102);
             this.txtMaSV.Name = "txtMaSV";
-            this.txtMaSV.Size = new System.Drawing.Size(208, 26);
+            this.txtMaSV.Size = new System.Drawing.Size(208, 34);
             this.txtMaSV.TabIndex = 1;
             // 
             // btnTimKiem
             // 
+            this.btnTimKiem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiem.Location = new System.Drawing.Point(373, 172);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(166, 45);
             this.btnTimKiem.TabIndex = 2;
-            this.btnTimKiem.Text = "Tìm Kiếm";
+            this.btnTimKiem.Text = "Tìm kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
             this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
@@ -83,11 +87,11 @@ namespace BTLWF
             this.MaHD,
             this.TrangThai});
             this.dgvSinhVien.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvSinhVien.Location = new System.Drawing.Point(0, 400);
+            this.dgvSinhVien.Location = new System.Drawing.Point(0, 288);
             this.dgvSinhVien.Name = "dgvSinhVien";
             this.dgvSinhVien.RowHeadersWidth = 62;
             this.dgvSinhVien.RowTemplate.Height = 28;
-            this.dgvSinhVien.Size = new System.Drawing.Size(889, 150);
+            this.dgvSinhVien.Size = new System.Drawing.Size(889, 262);
             this.dgvSinhVien.TabIndex = 3;
             // 
             // MaSV
@@ -163,8 +167,9 @@ namespace BTLWF
             this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.txtMaSV);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmTimKiemSVTheoMaSV";
-            this.Text = "frmTimKiemSVTheoMaSV";
+            this.Text = "Tìm kiếm sinh viên theo mã SV";
             ((System.ComponentModel.ISupportInitialize)(this.dgvSinhVien)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

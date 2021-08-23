@@ -48,18 +48,20 @@ namespace BTLWF
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(49, 79);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(13, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 20);
+            this.label1.Size = new System.Drawing.Size(121, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã sinh viên";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(519, 79);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(483, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 20);
+            this.label2.Size = new System.Drawing.Size(104, 28);
             this.label2.TabIndex = 0;
             this.label2.Text = "Mã cán bộ";
             // 
@@ -81,19 +83,21 @@ namespace BTLWF
             // 
             // btnMasv
             // 
+            this.btnMasv.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMasv.Location = new System.Drawing.Point(118, 157);
             this.btnMasv.Name = "btnMasv";
-            this.btnMasv.Size = new System.Drawing.Size(166, 47);
+            this.btnMasv.Size = new System.Drawing.Size(197, 54);
             this.btnMasv.TabIndex = 2;
-            this.btnMasv.Text = "Tìm kiếm theo masv";
+            this.btnMasv.Text = "Tìm kiếm theo Masv";
             this.btnMasv.UseVisualStyleBackColor = true;
             this.btnMasv.Click += new System.EventHandler(this.btnMasv_Click);
             // 
             // btnMacb
             // 
+            this.btnMacb.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMacb.Location = new System.Drawing.Point(504, 157);
             this.btnMacb.Name = "btnMacb";
-            this.btnMacb.Size = new System.Drawing.Size(202, 47);
+            this.btnMacb.Size = new System.Drawing.Size(233, 68);
             this.btnMacb.TabIndex = 2;
             this.btnMacb.Text = "Tìm kiếm theo MaCB";
             this.btnMacb.UseVisualStyleBackColor = true;
@@ -101,9 +105,10 @@ namespace BTLWF
             // 
             // btnMasv_MaCB
             // 
-            this.btnMasv_MaCB.Location = new System.Drawing.Point(271, 240);
+            this.btnMasv_MaCB.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMasv_MaCB.Location = new System.Drawing.Point(249, 240);
             this.btnMasv_MaCB.Name = "btnMasv_MaCB";
-            this.btnMasv_MaCB.Size = new System.Drawing.Size(266, 42);
+            this.btnMasv_MaCB.Size = new System.Drawing.Size(297, 67);
             this.btnMasv_MaCB.TabIndex = 3;
             this.btnMasv_MaCB.Text = "Tìm kiếm theo MaSV_MaCB";
             this.btnMasv_MaCB.UseVisualStyleBackColor = true;
@@ -112,9 +117,10 @@ namespace BTLWF
             // lblheader
             // 
             this.lblheader.AutoSize = true;
+            this.lblheader.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblheader.Location = new System.Drawing.Point(338, 343);
             this.lblheader.Name = "lblheader";
-            this.lblheader.Size = new System.Drawing.Size(0, 20);
+            this.lblheader.Size = new System.Drawing.Size(0, 28);
             this.lblheader.TabIndex = 4;
             this.lblheader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -181,7 +187,7 @@ namespace BTLWF
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmTimKiemChuyenSinhHoatDoan";
-            this.Text = "frmTimKiemChuyenSinhHoatDoan";
+            this.Text = "Tìm kiếm thông tin chuyển sinh hoạt Đoàn";
             this.Load += new System.EventHandler(this.frmTimKiemChuyenSinhHoatDoan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTimChuyenSinhHoatDoan)).EndInit();
             this.ResumeLayout(false);

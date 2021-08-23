@@ -149,5 +149,90 @@ using BLL;
             BLL_ThongTinSV data = new BLL_ThongTinSV();
             data.ExportDataToExcel();
         }
+
+        private void rdbChuyenCongTac_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdbHoatDong_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtNgaySinh_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbbMaLop_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDienThoai_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDiaChi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtHoTen_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaSV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

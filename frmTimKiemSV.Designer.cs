@@ -35,6 +35,7 @@ namespace BTLWF
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(150, 182);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(169, 81);
@@ -45,6 +46,7 @@ namespace BTLWF
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(483, 182);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(208, 81);
@@ -61,7 +63,7 @@ namespace BTLWF
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "frmTimKiemSV";
-            this.Text = "frmTimKiemSV";
+            this.Text = "Tìm kiếm sinh viên";
             this.Load += new System.EventHandler(this.frmTimKiemSV_Load);
             this.ResumeLayout(false);
 

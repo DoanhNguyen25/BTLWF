@@ -247,18 +247,20 @@
   </data>
   <data name="txtDienThoai.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAJcAAAAXCAYAAAAGL92hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB3SURBVGhD7dKxDQQxDANB9V+VDZfxZVwBdxDg5HMxmwGY
-        MN6CqHPOb631mk2se7ppVfUBU7qnm5a4mCUuYsRFjLiIERcx4iJGXMSIixhxESMuYsRFjLiIERcx4iJG
-        XMSIixhxESMuYv7i2ns/fZhNrHu6aUFC1QfL572GnSLE2gAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAOIAAAAjCAYAAACJpNbGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACjSURBVHhe7dOxDcMwAANB7T+VDI2RMTJADAFqsoD9xR3A
+        hv0PIGKt9Zlz/szs2e32ToZj7AN43m7vZChEeIsQIUCIECBECBAiBAgRAoQIAUKEACFCgBAhQIgQIEQI
+        ECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBAgRAv5CvK7ruw8z
+        e3a7vZMh8K4xbkztmlKYdnI9AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="txtDiaChi.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAJcAAAAXCAYAAAAGL92hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB3SURBVGhD7dKxDQQxDANB9V+VDZfxZVwBdxDg5HMxmwGY
-        MN6CqHPOb631mk2se7ppVfUBU7qnm5a4mCUuYsRFjLiIERcx4iJGXMSIixhxESMuYsRFjLiIERcx4iJG
-        XMSIixhxESMuYv7i2ns/fZhNrHu6aUFC1QfL572GnSLE2gAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAOIAAAAjCAYAAACJpNbGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACjSURBVHhe7dOxDcMwAANB7T+VDI2RMTJADAFqsoD9xR3A
+        hv0PIGKt9Zlz/szs2e32ToZj7AN43m7vZChEeIsQIUCIECBECBAiBAgRAoQIAUKEACFCgBAhQIgQIEQI
+        ECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBAgRAv5CvK7ruw8z
+        e3a7vZMh8K4xbkztmlKYdnI9AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="label3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -291,18 +293,20 @@
   </data>
   <data name="txtHoTen.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAJcAAAAXCAYAAAAGL92hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB3SURBVGhD7dKxDQQxDANB9V+VDZfxZVwBdxDg5HMxmwGY
-        MN6CqHPOb631mk2se7ppVfUBU7qnm5a4mCUuYsRFjLiIERcx4iJGXMSIixhxESMuYsRFjLiIERcx4iJG
-        XMSIixhxESMuYv7i2ns/fZhNrHu6aUFC1QfL572GnSLE2gAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAOIAAAAjCAYAAACJpNbGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACjSURBVHhe7dOxDcMwAANB7T+VDI2RMTJADAFqsoD9xR3A
+        hv0PIGKt9Zlz/szs2e32ToZj7AN43m7vZChEeIsQIUCIECBECBAiBAgRAoQIAUKEACFCgBAhQIgQIEQI
+        ECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBAgRAv5CvK7ruw8z
+        e3a7vZMh8K4xbkztmlKYdnI9AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="txtMaSV.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAJcAAAAXCAYAAAAGL92hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB3SURBVGhD7dKxDQQxDANB9V+VDZfxZVwBdxDg5HMxmwGY
-        MN6CqHPOb631mk2se7ppVfUBU7qnm5a4mCUuYsRFjLiIERcx4iJGXMSIixhxESMuYsRFjLiIERcx4iJG
-        XMSIixhxESMuYv7i2ns/fZhNrHu6aUFC1QfL572GnSLE2gAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAOIAAAAjCAYAAACJpNbGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACjSURBVHhe7dOxDcMwAANB7T+VDI2RMTJADAFqsoD9xR3A
+        hv0PIGKt9Zlz/szs2e32ToZj7AN43m7vZChEeIsQIUCIECBECBAiBAgRAoQIAUKEACFCgBAhQIgQIEQI
+        ECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBAgRAv5CvK7ruw8z
+        e3a7vZMh8K4xbkztmlKYdnI9AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="button2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

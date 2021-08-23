@@ -29,10 +29,10 @@ namespace BTLWF
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TimKiemSvTheoMaLop));
             this.lblmalop = new System.Windows.Forms.Label();
             this.cbbMaLop = new System.Windows.Forms.ComboBox();
             this.dgvSinhvien = new System.Windows.Forms.DataGridView();
-            this.btnmalop = new System.Windows.Forms.Button();
             this.MaSV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.HoTenSV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,24 +41,27 @@ namespace BTLWF
             this.MaLop = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaHD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnmalop = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSinhvien)).BeginInit();
             this.SuspendLayout();
             // 
             // lblmalop
             // 
             this.lblmalop.AutoSize = true;
+            this.lblmalop.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmalop.Location = new System.Drawing.Point(174, 80);
             this.lblmalop.Name = "lblmalop";
-            this.lblmalop.Size = new System.Drawing.Size(56, 20);
+            this.lblmalop.Size = new System.Drawing.Size(74, 28);
             this.lblmalop.TabIndex = 0;
             this.lblmalop.Text = "Mã lớp";
             // 
             // cbbMaLop
             // 
+            this.cbbMaLop.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbMaLop.FormattingEnabled = true;
             this.cbbMaLop.Location = new System.Drawing.Point(303, 71);
             this.cbbMaLop.Name = "cbbMaLop";
-            this.cbbMaLop.Size = new System.Drawing.Size(192, 28);
+            this.cbbMaLop.Size = new System.Drawing.Size(192, 36);
             this.cbbMaLop.TabIndex = 1;
             // 
             // dgvSinhvien
@@ -75,22 +78,12 @@ namespace BTLWF
             this.MaHD,
             this.TrangThai});
             this.dgvSinhvien.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvSinhvien.Location = new System.Drawing.Point(0, 300);
+            this.dgvSinhvien.Location = new System.Drawing.Point(0, 232);
             this.dgvSinhvien.Name = "dgvSinhvien";
             this.dgvSinhvien.RowHeadersWidth = 62;
             this.dgvSinhvien.RowTemplate.Height = 28;
-            this.dgvSinhvien.Size = new System.Drawing.Size(800, 150);
+            this.dgvSinhvien.Size = new System.Drawing.Size(800, 218);
             this.dgvSinhvien.TabIndex = 2;
-            // 
-            // btnmalop
-            // 
-            this.btnmalop.Location = new System.Drawing.Point(303, 144);
-            this.btnmalop.Name = "btnmalop";
-            this.btnmalop.Size = new System.Drawing.Size(192, 37);
-            this.btnmalop.TabIndex = 3;
-            this.btnmalop.Text = "Tìm Theo Mã Lớp";
-            this.btnmalop.UseVisualStyleBackColor = true;
-            this.btnmalop.Click += new System.EventHandler(this.btnmalop_Click);
             // 
             // MaSV
             // 
@@ -156,6 +149,17 @@ namespace BTLWF
             this.TrangThai.Name = "TrangThai";
             this.TrangThai.Width = 150;
             // 
+            // btnmalop
+            // 
+            this.btnmalop.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmalop.Location = new System.Drawing.Point(303, 144);
+            this.btnmalop.Name = "btnmalop";
+            this.btnmalop.Size = new System.Drawing.Size(192, 37);
+            this.btnmalop.TabIndex = 3;
+            this.btnmalop.Text = "Tìm theo mã lớp";
+            this.btnmalop.UseVisualStyleBackColor = true;
+            this.btnmalop.Click += new System.EventHandler(this.btnmalop_Click);
+            // 
             // TimKiemSvTheoMaLop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -165,8 +169,9 @@ namespace BTLWF
             this.Controls.Add(this.dgvSinhvien);
             this.Controls.Add(this.cbbMaLop);
             this.Controls.Add(this.lblmalop);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TimKiemSvTheoMaLop";
-            this.Text = "TimKiemSvTheoMaLop";
+            this.Text = "Tìm kiếm sinh viên theo mã lớp";
             this.Load += new System.EventHandler(this.TimKiemSvTheoMaLop_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvSinhvien)).EndInit();
             this.ResumeLayout(false);

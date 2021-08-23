@@ -47,21 +47,26 @@ namespace BTLWF
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(135, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 20);
+            this.label1.Size = new System.Drawing.Size(104, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã cán bộ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtMaCB
             // 
+            this.txtMaCB.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaCB.Location = new System.Drawing.Point(304, 84);
             this.txtMaCB.Name = "txtMaCB";
-            this.txtMaCB.Size = new System.Drawing.Size(200, 26);
+            this.txtMaCB.Size = new System.Drawing.Size(200, 34);
             this.txtMaCB.TabIndex = 1;
+            this.txtMaCB.TextChanged += new System.EventHandler(this.txtMaCB_TextChanged);
             // 
             // btnTim
             // 
+            this.btnTim.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTim.Location = new System.Drawing.Point(304, 153);
             this.btnTim.Name = "btnTim";
             this.btnTim.Size = new System.Drawing.Size(160, 48);
@@ -83,11 +88,11 @@ namespace BTLWF
             this.MaHD,
             this.TrangThai});
             this.dgvCanBo.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvCanBo.Location = new System.Drawing.Point(0, 387);
+            this.dgvCanBo.Location = new System.Drawing.Point(0, 265);
             this.dgvCanBo.Name = "dgvCanBo";
             this.dgvCanBo.RowHeadersWidth = 62;
             this.dgvCanBo.RowTemplate.Height = 28;
-            this.dgvCanBo.Size = new System.Drawing.Size(971, 214);
+            this.dgvCanBo.Size = new System.Drawing.Size(971, 336);
             this.dgvCanBo.TabIndex = 3;
             // 
             // MaCB
@@ -164,7 +169,7 @@ namespace BTLWF
             this.Controls.Add(this.txtMaCB);
             this.Controls.Add(this.label1);
             this.Name = "TimKiemCBDoanTheoMaCB";
-            this.Text = "TimKiemCBDoanTheoMaCB";
+            this.Text = "Tìm kiếm cán bộ Đoàn theo mã CB";
             ((System.ComponentModel.ISupportInitialize)(this.dgvCanBo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
